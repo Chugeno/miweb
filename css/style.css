@@ -246,4 +246,144 @@ footer {
     nav a {
         font-size: 0.8rem;
     }
+}
+
+/* Portfolio Styles */
+.portfolio-section {
+    padding: 8rem 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 8rem 2rem;
+}
+
+.portfolio-section h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    margin: 4rem 0 2rem;
+    position: relative;
+}
+
+.portfolio-section h2::after {
+    content: '';
+    position: absolute;
+    width: 3rem;
+    height: 2px;
+    background-color: var(--accent-color);
+    bottom: -0.5rem;
+    left: 0;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.experience-card {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-card .company {
+    color: var(--accent-color);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.skill-category h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.skill-category li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments for portfolio */
+@media (max-width: 768px) {
+    .portfolio-section {
+        padding: 4rem 1rem;
+    }
+
+    .experience-grid,
+    .skills-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .portfolio-section h2 {
+        font-size: 1.25rem;
+    }
 } 
