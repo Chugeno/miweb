@@ -20,33 +20,19 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
-    overflow-x: hidden;
-}
-
-/* Fondo con parallax */
-.parallax-bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    right: -50%;
-    bottom: -50%;
-    z-index: -1;
     background-image: 
         linear-gradient(var(--grid-color) 1px, transparent 1px),
         linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
     background-size: 50px 50px;
-    background-attachment: fixed;
-    transform: translateY(0);
-    will-change: transform;
 }
 
 header {
-    background-color: var(--background-color);
+    background-color: transparent;
     padding: 2rem 0;
     position: fixed;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    mix-blend-mode: difference;
 }
 
 nav ul {
@@ -58,7 +44,7 @@ nav ul {
 }
 
 nav a {
-    color: var(--text-color);
+    color: var(--background-color);
     text-decoration: none;
     font-family: 'Space Mono', monospace;
     font-size: 0.9rem;
@@ -85,8 +71,6 @@ main {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
-    position: relative;
-    z-index: 1;
 }
 
 .hero {
@@ -96,16 +80,12 @@ main {
     text-align: left;
     padding: 0;
     position: relative;
-    transform: translateY(0);
-    will-change: transform;
 }
 
 .hero-content {
     max-width: 800px;
     position: relative;
     z-index: 1;
-    transform: translateY(0);
-    will-change: transform;
 }
 
 .hero h1 {
@@ -117,7 +97,7 @@ main {
     position: relative;
 }
 
-.circle {
+.hero h1::before {
     content: '';
     position: absolute;
     width: 100px;
@@ -128,8 +108,6 @@ main {
     top: -20px;
     left: -40px;
     z-index: -1;
-    display: block;
-    will-change: transform;
 }
 
 .hero p {
@@ -142,18 +120,6 @@ main {
 
 .recent-posts {
     padding: 8rem 0;
-    position: relative;
-    background-color: white;
-    width: 100vw;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
-.recent-posts > * {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2rem;
 }
 
 .recent-posts h2 {
@@ -176,7 +142,7 @@ main {
 
 .posts-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
     margin-top: 2rem;
 }
@@ -200,8 +166,6 @@ footer {
     color: var(--background-color);
     font-family: 'Space Mono', monospace;
     font-size: 0.9rem;
-    position: relative;
-    z-index: 1;
 }
 
 /* Responsive design */
@@ -217,9 +181,5 @@ footer {
 
     .hero-content {
         padding: 0 1rem;
-    }
-
-    .posts-grid {
-        grid-template-columns: 1fr;
     }
 } 
