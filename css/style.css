@@ -170,16 +170,80 @@ footer {
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 3rem;
+    nav {
+        padding: 0 1rem;
     }
 
     nav ul {
         justify-content: center;
         padding-right: 0;
+        gap: 1.5rem;
     }
 
-    .hero-content {
+    .hero {
+        text-align: center;
         padding: 0 1rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(2rem, 8vw, 3rem);
+        margin-bottom: 1.5rem;
+    }
+
+    .hero h1::before {
+        display: none;
+    }
+
+    .hero p {
+        font-size: clamp(1rem, 4vw, 1.25rem);
+        margin: 0 auto;
+    }
+
+    .recent-posts {
+        padding: 4rem 1rem;
+    }
+
+    .recent-posts h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .recent-posts h2::after {
+        left: 25%;
+        width: 50%;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .post-card {
+        padding: 1.5rem;
+    }
+
+    .post-card h3 {
+        font-size: 1.25rem;
+    }
+
+    main {
+        padding: 0;
+    }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: clamp(1.75rem, 7vw, 2.5rem);
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
     }
 } 
