@@ -386,4 +386,51 @@ footer {
     .portfolio-section h2 {
         font-size: 1.25rem;
     }
+}
+
+.about-content {
+    max-width: 65ch;
+    margin: 2rem 0 4rem;
+    line-height: 1.8;
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-grid {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .about-content {
+        padding: 0 1rem;
+        margin: 2rem 0;
+    }
 } 
