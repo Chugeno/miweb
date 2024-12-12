@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web Personal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="parallax-bg"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="blog.html">escritos</a></li>
+                <li><a href="portfolio.html">proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1><span class="circle"></span>Ideas, código y curiosidades.</h1>
+                <p>Un espacio digital donde documento mis pensamientos, experimentos y descubrimientos en el mundo del desarrollo y más allá.</p>
+            </div>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Últimas notas</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <h3>La simplicidad en el diseño</h3>
+                    <p>Reflexiones sobre el minimalismo y su impacto en la experiencia del usuario.</p>
+                </article>
+                <article class="post-card">
+                    <h3>Experimentos creativos</h3>
+                    <p>Explorando las intersecciones entre código y arte.</p>
+                </article>
+                <article class="post-card">
+                    <h3>Notas técnicas</h3>
+                    <p>Documentando aprendizajes y soluciones del día a día.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>diseñado y desarrollado con ♥️ © 2024</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxBg = document.querySelector('.parallax-bg');
+            const hero = document.querySelector('.hero');
+            const heroContent = document.querySelector('.hero-content');
+            const circle = document.querySelector('.circle');
+            
+            parallaxBg.style.transform = `translateY(${scrolled * 0.5}px)`;
+            hero.style.transform = `translateY(${scrolled * 0.3}px)`;
+            heroContent.style.transform = `translateY(${scrolled * 0.2}px)`;
+            if (circle) circle.style.transform = `translateY(${scrolled * 0.8}px)`;
+        });
+    </script>
+</body>
+</html> 
