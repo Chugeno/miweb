@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Space+Mono&display=swap');
+
+:root {
+    --primary-color: #f0e6e0;
+    --secondary-color: #2d232e;
+    --accent-color: #e16162;
+    --text-color: #2d232e;
+    --background-color: #fffcf9;
+    --grid-color: rgba(45, 35, 46, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    background-image: 
+        linear-gradient(var(--grid-color) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+    background-size: 50px 50px;
+}
+
+header {
+    background-color: transparent;
+    padding: 2rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    mix-blend-mode: difference;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    padding-right: 4rem;
+}
+
+nav a {
+    color: var(--background-color);
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: left;
+    padding: 0;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    position: relative;
+}
+
+.hero h1::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: var(--accent-color);
+    opacity: 0.1;
+    border-radius: 50%;
+    top: -20px;
+    left: -40px;
+    z-index: -1;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    max-width: 600px;
+    font-weight: 300;
+}
+
+.portfolio-section {
+    padding: 8rem 0;
+}
+
+.portfolio-section h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Space Mono', monospace;
+    position: relative;
+    display: inline-block;
+}
+
+.portfolio-section h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: var(--accent-color);
+    bottom: -10px;
+    left: 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 2rem 0 4rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.about-content p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.featured-project {
+    background-color: var(--primary-color);
+    padding: 2.5rem;
+    border-radius: 2px;
+    margin: 2rem 0 4rem;
+    transition: transform 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.featured-project:hover {
+    transform: translateY(-5px);
+}
+
+.featured-project a.card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.featured-project h3 a {
+    color: var(--accent-color);
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+
+.featured-project h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+}
+
+.featured-project h3 a:hover {
+    text-decoration: underline;
+}
+
+.featured-project p {
+    text-align: justify;
+}
+
+.artists {
+    font-style: italic;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.experience-card {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-card a.card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.experience-card h3, .experience-card p, .experience-card ul {
+    position: relative;
+    z-index: 2;
+}
+
+.experience-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.experience-card p {
+    color: var(--secondary-color);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.experience-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.experience-card li {
+    text-align: justify;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.experience-card li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.contact-link:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    nav ul {
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .hero-content {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .portfolio-section {
+        padding: 4rem 1rem;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .hero h1::before {
+        display: none;
+    }
+}
+
+/* Estilos para la página de detalle del proyecto */
+.project-detail {
+    padding: 8rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-hero {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.project-hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.project-hero h1::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: var(--accent-color);
+    opacity: 0.1;
+    border-radius: 50%;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.project-subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+}
+
+.project-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.project-content h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8rem;
+    margin: 3rem 0 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.project-content h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: var(--accent-color);
+    bottom: -8px;
+    left: 0;
+}
+
+.project-content p {
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    text-align: justify;
+}
+
+.project-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.artists-grid {
+    margin: 2rem 0 4rem;
+}
+
+.artists-grid ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.artists-grid li {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+}
+
+.artists-grid li:hover {
+    transform: translateY(-3px);
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+.project-video {
+    margin: 4rem 0;
+}
+
+.project-video p {
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.video-link {
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.video-link:hover {
+    transform: translateY(-5px);
+}
+
+.video-link a {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.play-icon {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-right: 2rem;
+}
+
+.video-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.video-subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .project-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .project-content {
+        font-size: 1rem;
+    }
+
+    .stat-item {
+        min-width: 150px;
+        padding: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .project-detail {
+        padding: 6rem 1rem;
+    }
+}
+
+.music-section {
+    margin: 4rem 0;
+}
+
+.music-intro {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.spotify-embed {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+.discography-section {
+    margin: 4rem 0;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.album-card {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+}
+
+.album-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.album-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.album-card li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.album-card li::before {
+    content: '♪';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.album-card a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.album-card a:hover {
+    color: var(--accent-color);
+}
+
+.award {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    margin-left: 0.5rem;
+    font-family: 'Space Mono', monospace;
+} 

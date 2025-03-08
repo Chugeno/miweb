@@ -1,0 +1,61 @@
+---
+description: General
+globs: 
+alwaysApply: false
+---
+# Cline Rules
+
+## General Behavior
+
+- Always respond in Spanish unless explicitly requested otherwise.
+- Limit responses to a reasonable number of tokens. If the response is too long, indicate it and split it into consecutive parts.
+- Avoid redundant or unnecessary repetitions in responses.
+- Use Markdown formatting when appropriate (e.g., for code, lists, headings).
+- Structure information using lists or numbered sections for better clarity.
+- DO NOT BE LAZY. DO NOT OMIT CODE.
+- Always prefer simple solutions.
+- Focus on the areas of code relevant to the task.
+
+## Code Implementation Standards
+
+Before writing code:
+1. Analyze all code files thoroughly.
+2. Get full context.
+3. Write a `.MD` implementation plan.
+4. Then implement code.
+
+- Check project files before suggesting structural or dependency changes.
+- Be VERY careful with the file structure.
+- Do not embellish responses; be concise unless explicitly requested otherwise.
+- List all assumptions and uncertainties that need to be clarified before completing a task.
+- Avoid duplication of code whenever possible, which means checking for other areas of the codebase that might already have similar code and functionality.
+- Write code that takes into account the different environments: dev, test, and prod.
+- You are careful to only make changes that are requested or you are confident are well understood and related to the change being requested.
+- When fixing an issue or bug, do not introduce a new pattern or technology without first exhausting all options for the existing implementation. If you must introduce a new pattern, remove the old implementation afterward to avoid duplicate logic.
+- Keep the codebase very clean and organized.
+- Avoid writing scripts in files if possible, especially if the script is likely only to be run once.
+- Avoid having files over 200-300 lines of code. Refactor at that point.
+- Mocking data is only needed for tests, never mock data for dev or prod.
+- Never add stubbing or fake data patterns to code that affects the dev or prod environments.
+- Never overwrite my `.env` file without first asking and confirming.
+- Do not touch code that is unrelated to the task.
+- Avoid making major changes to the patterns and architecture of how a feature works, after it has shown to work well, unless explicitly instructed.
+- Always think about what other methods and areas of code might be affected by code changes.
+
+## Security & Privacy
+
+- Do not store or process API keys, passwords, or sensitive credentials.
+- Do not modify or delete system-critical files.
+- Do not upload or commit sensitive files to GitHub or any external repository.
+
+## Versioning System
+
+- When requested to "guardar una versión hasta acá":
+  - Check the latest version number in the "Versions" folder.
+  - Create a new folder with the next sequential number (e.g., `v1`, `v2`).
+  - Save all relevant project files, maintaining the original folder structure.
+  - Ensure the backup is complete and accessible for quick recovery.
+  - Create a `version_log.md` file inside the version folder with:
+    - A summary of the work completed up to this point.
+    - A list of changes made since the last version (if applicable).
+    - Any notes or context about the state of the project.

@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eugenio Azurmendi - Sound Engineer</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="Explorador digital especializado en sonido, tecnología y experimentos creativos">
+    <meta name="keywords" content="sonido, tecnología, homelab, audio, experimentos">
+    <meta name="author" content="Eugenio Azurmendi">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Eugenio Azurmendi - Explorador Digital">
+    <meta property="og:description" content="Aprendiendo sobre sonido, tecnología y otras curiosidades">
+    <meta property="og:url" content="https://tudominio.com">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Eugenio Azurmendi">
+    <meta name="twitter:description" content="Aprendiendo sobre sonido, tecnología y otras curiosidades">
+    
+    <title>Eugenio Azurmendi - Explorador Digital</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav-primary">
             <ul>
                 <li><a href="index.html">inicio</a></li>
-                <li><a href="pages/blog.html">escritos</a></li>
+                <li><a href="laboratorio.html">laboratorio</a></li>
+                <li><a href="bitacora.html">bitácora</a></li>
                 <li><a href="#contacto">contacto</a></li>
             </ul>
         </nav>
@@ -21,83 +39,54 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>Eugenio Azurmendi</h1>
-                <p>Técnico de Sonido | Sound Engineer</p>
-                <p>Especializado en Edit • Mix • Mastering</p>
+                <p class="hero-tagline">Explorando las intersecciones entre sonido, tecnología y creatividad</p>
+                <nav class="nav-tags">
+                    <a href="/tags/sonido">#sonido</a>
+                    <a href="/tags/tecnologia">#tecnología</a>
+                    <a href="/tags/homelab">#homelab</a>
+                    <a href="/tags/experimentos">#experimentos</a>
+                </nav>
             </div>
         </section>
 
-        <section class="portfolio-section">
-            <h2>Sobre mí</h2>
-            <div class="about-content">
-                <p>Soy un técnico de sonido con más de 12 años de experiencia en la industria musical. Durante 10 años trabajé como asistente personal de Gustavo "Popi" Spatocco, lo que me permitió colaborar con algunos de los nombres más importantes de la música folclórica argentina.</p>
-                <p>Me especializo en grabación, edición, mezcla y masterización de audio, así como en sonido en vivo. Mi formación técnico-musical me permite realizar trabajos de composición y diseño de sonido para diversos medios audiovisuales.</p>
-            </div>
-
-            <div class="music-section">
-                <h2>Mi Música</h2>
-                <p class="music-intro">Escucha una selección de trabajos en los que he participado</p>
-                <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/playlist/7nztuLugMyVw4Y09vYcu9Q?utm_source=generator" 
-                            width="100%" 
-                            height="352" 
-                            frameborder="0" 
-                            allowfullscreen="" 
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                            loading="lazy">
-                    </iframe>
+        <section class="featured-spaces">
+            <article class="space-card">
+                <span class="card-category">laboratorio</span>
+                <h2>Sonoro</h2>
+                <p>Explorando el universo del audio, desde técnicas de grabación hasta experimentos con IA</p>
+                <div class="tags">
+                    <span>#audio</span>
+                    <span>#grabación</span>
+                    <span>#ia</span>
                 </div>
-            </div>
+            </article>
 
-            <h2>Proyecto Destacado</h2>
-            <div class="featured-project">
-                <a href="pages/traigo-un-pueblo.html" class="card-link" aria-label="Ver proyecto Traigo un Pueblo en mi Voz"></a>
-                <h3><a href="pages/traigo-un-pueblo.html">Traigo un Pueblo en mi Voz</a></h3>
-                <p>Un concierto homenaje a Mercedes Sosa, manteniendo vivo su espíritu de pluralidad, reunión y amistad. Dirigido por Gustavo "Popi" Spatocco, con la participación de más de 20 artistas destacados y más de 15 presentaciones en todo el país.</p>
-                <p class="artists">Artistas participantes: Pedro Aznar, Víctor Heredia, Soledad Pastorutti, Julia Zenko, Marcela Morelo, Peteco Carabajal, Nahuel Pennisi, entre otros.</p>
-            </div>
+            <article class="space-card">
+                <span class="card-category">laboratorio</span>
+                <h2>Tech</h2>
+                <p>Aventuras en domótica, homelab y soluciones tecnológicas creativas</p>
+                <div class="tags">
+                    <span>#homelab</span>
+                    <span>#domotica</span>
+                    <span>#tech</span>
+                </div>
+            </article>
 
-            <h2>Experiencia Destacada</h2>
-            <div class="experience-grid">
-                <article class="experience-card">
-                    <h3>Asistente de Producción</h3>
-                    <p>Mercedes Sosa</p>
-                    <ul>
-                        <li>Mercedes Florecida</li>
-                        <li>Deja la Vida Volar / En Gira (Grammy Latino 2011)</li>
-                        <li>Lucerito</li>
-                    </ul>
-                </article>
-                <article class="experience-card">
-                    <h3>Producción y Edición</h3>
-                    <ul>
-                        <li>Nahuel Pennisi - Primavera</li>
-                        <li>Berta Rojas - Historia del Tango</li>
-                        <li>Chango Spasiuk - Tierra colorada vivo en Colon</li>
-                        <li>Susy Shock - Traviarca</li>
-                    </ul>
-                </article>
-                <article class="experience-card">
-                    <h3>Proyectos Audiovisuales</h3>
-                    <ul>
-                        <li>Paisajes Devorados - Eliseo Subiela</li>
-                        <li>Mi Gitana - Telecinco</li>
-                        <li>4 Ambientes - Diseño Sonoro</li>
-                    </ul>
-                </article>
-            </div>
-
-            <h2 id="contacto">Contacto</h2>
-            <div class="contact-grid">
-                <a href="#" class="contact-link" target="_blank">Instagram</a>
-                <a href="#" class="contact-link" target="_blank">LinkedIn</a>
-                <a href="mailto:eugenioazurmendi@gmail.com" class="contact-link">Email</a>
-                <a href="https://wa.me/5492944960876" class="contact-link" target="_blank">WhatsApp</a>
-            </div>
+            <article class="space-card inverted">
+                <a href="bitacora.html" class="card-link" aria-label="Ver bitácora"> </a>
+                <h2>Bitácora</h2>
+                <p>Documentando aprendizajes, experimentos y descubrimientos</p>
+                <div class="tags">
+                    <span>#notas</span>
+                    <span>#tutoriales</span>
+                    <span>#recursos</span>
+                </div>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>diseñado y desarrollado con ♥️ © 2024</p>
+        <p>construido con curiosidad ∞ 2025</p>
     </footer>
 </body>
 </html> 
