@@ -268,10 +268,13 @@ main {
 }
 
 /* Post content styles */
+/* Estilos para el contenido de los posts */
 .post-content {
     max-width: 800px;
     margin: 8rem auto;
     padding: 0 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 .post-header {
@@ -346,27 +349,21 @@ main {
 .nav-next:hover {
     color: var(--accent-color);
 }
+/* Estilos para las tarjetas de post */
 
-.post-card {
-    background-color: var(--primary-color);
-    padding: 2.5rem;
-    border-radius: 2px;
-    transition: all 0.3s ease;
-    position: relative;
-    display: block; /* Cambiamos de grid a block */
-    /* Eliminamos grid-template-columns: 1fr 4fr; */
-    /* Eliminamos gap: 2rem; */
-}
-
+/* Definición para .post-date que se usa en múltiples contextos */
 .post-date {
     font-family: 'Space Mono', monospace;
-    font-size: 0.9rem;
-    opacity: 0.6;
+    font-size: 0.8rem;
+    color: var(--text-color);
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 0.5rem;
     writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    text-align: right;
-    padding: 1rem 0;
+    text-orientation: mixed;
+    transform: rotate(180deg);  
 }
+
 
 .post-card h2 {
     font-family: 'Space Mono', monospace;
@@ -505,17 +502,19 @@ footer {
     color: var(--background-color);
 }
 
-.posts-grid {
-    padding: 4rem 0;
-}
+
 
 .post-card {
     background-color: var(--primary-color);
+    padding: 0; /* Eliminamos el padding aquí ya que lo tenemos en .post-link */
     border-radius: 2px;
-    margin-bottom: 2rem;
-    transition: transform 0.3s ease;
-    display: block; /* Aseguramos que sea block */
-    width: 100%; /* Aseguramos que ocupe todo el ancho */
+    margin-bottom: 0; /* Eliminamos el margen ya que usamos grid con gap */
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex; /* Cambiamos a flex para mejor control del contenido */
+    width: 100%;
+    height: 300px; /* Altura fija */
+    overflow: hidden; /* Para controlar el contenido que exceda la altura */
 }
 
 .post-card:hover {
@@ -523,13 +522,12 @@ footer {
 }
 
 .post-link {
-    display: block;
-    width: 100%;  /* Asegura que ocupe todo el ancho disponible */
-    height: 100%; /* Asegura que ocupe toda la altura disponible */
+    width: 100%;
+    height: 100%; /* Ocupa toda la altura de la tarjeta */
     padding: 2rem;
     text-decoration: none;
     color: var(--text-color);
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    box-sizing: border-box;
 }
 
 .post-header-grid {
@@ -545,19 +543,7 @@ footer {
     min-height: 120px;
 }
 
-.post-date {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-family: 'Space Mono', monospace;
-    font-size: 0.9rem;
-    opacity: 0.7;
-    padding: 1rem 0;
-    grid-column: 1;
-    justify-self: end;
-    align-self: stretch;
-    height: 100%;
-    position: relative;
-}
+
 
 .post-header .post-title {
     font-size: 3rem;
@@ -608,12 +594,7 @@ footer {
     margin-top: 1.5rem;
 }
 
-.post-content {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
+/* Ya definido arriba */
 
 .post-content h2 {
     font-family: 'Space Mono', monospace;
