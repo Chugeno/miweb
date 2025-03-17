@@ -10,10 +10,10 @@
 <channel>
 	<title>ViajePorSudamerica &#8211; eugenioazurmendi</title>
 	<atom:link href="https://eugenioazurmendi.com.ar/tag/viajeporsudamerica/feed/" rel="self" type="application/rss+xml" />
-	<link>https://eugenioazurmendi.com.ar</link>
+	<link>https://eugenioazurmendi.com.ar/</link>
 	<description>...compartiendo...</description>
 	<lastBuildDate>Mon, 17 Mar 2025 02:53:01 +0000</lastBuildDate>
-	<language>es</language>
+	<language>es-AR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -29,7 +29,7 @@
 				<category><![CDATA[Sudamerica]]></category>
 		<category><![CDATA[MercedesBenz608D]]></category>
 		<category><![CDATA[ViajePorSudamerica]]></category>
-		<guid isPermaLink="false">http://eugenioazurmendi.com.ar/?p=154</guid>
+		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=154</guid>
 
 					<description><![CDATA[Nuestra casa...]]></description>
 										<content:encoded><![CDATA[

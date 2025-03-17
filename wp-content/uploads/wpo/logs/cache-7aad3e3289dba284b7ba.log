@@ -1,0 +1,8 @@
+[2025-03-17 03:51:52 : INFO] - Cache for associated TranslatePress translation posts for Title: "Borrador automático" have been purged 
+[2025-03-17 03:51:52 : INFO] - Cache for associated TranslatePress translation posts' feeds for Title: "Borrador automático" have been purged 
+[2025-03-17 03:51:52 : INFO] - Cache for URL: http://eugenioazurmendi.local/?p=182 has been purged, triggered by action: save_post 
+[2025-03-17 03:51:52 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/berta/) adjacent to post with id: 182 has been purged, triggered by action: save_post 
+[2025-03-17 03:51:52 : INFO] - Cache for all archives page associated with post_type: post and Title: "Borrador automático" have been purged, triggered by action: save_post 
+[2025-03-17 05:07:14 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-03-17 05:07:38 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-03-17 18:17:47 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 

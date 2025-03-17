@@ -1,0 +1,740 @@
+# Translation of Plugins - GenerateBlocks - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - GenerateBlocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-02-12 19:27:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - GenerateBlocks - Stable (latest release)\n"
+
+#: dist/blocks/text/index.js:1 dist/pattern-library.js:2
+#: src/dynamic-tags/components/DynamicTagBlockToolbar.jsx:153
+#: src/pattern-library/components/pattern-details.js:81
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: includes/pattern-library/class-libraries.php:206
+msgid "Free"
+msgstr "Gratis"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:4 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:35
+#: src/blocks/media/components/BlockSettings.jsx:111
+#: src/components/alignment-toolbar/BlockWidth.jsx:51
+#: src/extend/inspector-control/controls/layout/components/ThemeWidth.js:35
+msgid "Full"
+msgstr "Completo"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/BlockWidth.jsx:46
+#: src/extend/inspector-control/controls/layout/components/ThemeWidth.js:30
+msgid "Wide"
+msgstr "Ancho"
+
+#: includes/functions.php:1871
+msgid "System Fonts"
+msgstr "Fuentes de sistema"
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:4 dist/blocks/looper/index.js:4
+#: dist/blocks/query/index.js:4
+#: src/blocks/container/components/BlockAppender.js:40
+#: src/components/block-appender/BlockAppender.jsx:49
+msgctxt "Generic label for block inserter button"
+msgid "Add block"
+msgstr "Añadir bloque"
+
+#. translators: %s: the name of the block when there is only one
+#: dist/blocks.js:15 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:4 dist/blocks/looper/index.js:4
+#: dist/blocks/query/index.js:4
+#: src/blocks/container/components/BlockAppender.js:38
+#: src/components/block-appender/BlockAppender.jsx:47
+msgctxt "directly add the only allowed block"
+msgid "Add %s"
+msgstr "Añadir %s"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/controls/TaxonomyParameterControl.js:83
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:86
+msgid "You must select at least one term. Search by name or ID."
+msgstr "Debes seleccionar al menos un término. Busca por nombre o ID."
+
+#: dist/blocks.js:4 dist/blocks.js:15 dist/blocks/query/index.js:1
+#: dist/pattern-library.js:2 dist/styles-builder.js:4 dist/styles-builder.js:7
+#: dist/styles-builder.js:10 dist/styles-builder.js:16
+#: dist/styles-builder.js:28 dist/styles-builder.js:29
+#: src/components/migrate-inner-container/index.js:169
+#: src/components/template-selector/TemplateSelector.jsx:61
+#: src/extend/template-selector/index.js:53
+#: src/pattern-library/components/selected-patterns.js:133
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: dist/components.js:4
+#: src/blocks/query-loop/components/inspector-controls/controls/TaxonomyParameterControl.js:58
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:68
+#: src/dynamic-tags/components/SelectTaxonomy.jsx:21
+msgid "Select taxonomy"
+msgstr "Seleccionar taxonomía"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/controls/TaxonomyParameterControl.js:89
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:109
+msgid "Include child terms"
+msgstr "Incluir términos hijos"
+
+#: dist/blocks/media/block.json src/blocks/media/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Imagen"
+
+#: dist/blocks.js:3 dist/blocks.js:33 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:35
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:123
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:615
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:621
+#: src/extend/inspector-control/controls/borders/components/style-dropdown.js:33
+msgid "None"
+msgstr "Ninguno"
+
+#: dist/blocks.js:15 dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:101
+#: src/components/link-block-toolbar/LinkBlockToolbar.jsx:26
+#: src/components/link-control/index.js:106
+msgid "Add Link"
+msgstr "Añadir enlace"
+
+#: dist/blocks.js:15 dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:101
+#: src/components/link-block-toolbar/LinkBlockToolbar.jsx:26
+#: src/components/link-control/index.js:107
+msgid "Change Link"
+msgstr "Cambiar enlace"
+
+#: dist/blocks.js:6 dist/blocks/element/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/components/dynamic-tags-onboarder/DynamicTagsOnboarder.jsx:16
+#: src/extend/dynamic-content/InspectorControls.js:97
+msgid "Dynamic Data"
+msgstr "Datos dinámicos"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:187 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/CommentsControl.js:30
+msgid "Multiple comments text"
+msgstr "Texto para múltiples comentarios"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:106 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/PostDateControl.js:15
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:101 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/PostDateControl.js:12
+msgid "Date type"
+msgstr "Tipo de fecha"
+
+#: dist/blocks.js:6 dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:623
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:19
+#: src/extend/dynamic-content/utils/getContentTypeLabel.js:52
+msgid "Comments area"
+msgstr "Área de comentarios"
+
+#: dist/blocks.js:4 dist/blocks/media/index.js:1
+#: src/blocks/media/components/BlockSettings.jsx:250
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:82
+msgid "Alt text"
+msgstr "Texto alternativo"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:125 dist/blocks.js:4
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:57
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:177 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/CommentsControl.js:18
+msgid "No comments text"
+msgstr "Sin texto de comentarios"
+
+#: dist/blocks.js:3 dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1 src/block-context/container.js:99
+#: src/block-context/headline.js:90
+#: src/blocks/button/components/InspectorAdvancedControls.js:27
+#: src/components/url-controls/URLControls.jsx:15
+msgid "Link"
+msgstr "Enlace"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:707
+#: src/extend/dynamic-content/inspector-controls/DynamicSourceControl.js:35
+msgid "Select source post"
+msgstr "Selecciona el puesto de origen"
+
+#: dist/blocks.js:15 dist/blocks/media/index.js:1
+#: src/blocks/image/components/ImagePlaceholder.js:43
+#: src/blocks/media/components/ImagePlaceholder.jsx:16
+msgid "Choose an image from your media library or add one with a URL."
+msgstr "Elige una imagen de tu biblioteca multimedia o añade una con una URL."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: src/blocks/query-loop/query-parameters.js:211
+#: src/blocks/query/components/DateQueryControl.jsx:71
+#: src/blocks/query/components/DateQueryControl.jsx:84
+#: src/blocks/text/components/BlockSettings.jsx:158
+msgid "Before"
+msgstr "Antes de"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: src/blocks/query-loop/query-parameters.js:203
+#: src/blocks/query/components/DateQueryControl.jsx:91
+#: src/blocks/query/components/DateQueryControl.jsx:104
+#: src/blocks/text/components/BlockSettings.jsx:159
+msgid "After"
+msgstr "Después de"
+
+#: dist/blocks.js:4 dist/blocks.js:6 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: src/blocks/query-loop/query-parameters.js:148
+#: src/blocks/query-loop/query-parameters.js:160
+#: src/blocks/query-loop/query-parameters.js:171
+#: src/blocks/query-loop/query-parameters.js:183
+#: src/blocks/query-loop/query-parameters.js:197
+#: src/blocks/query/query-parameters.js:140
+#: src/blocks/query/query-parameters.js:152
+#: src/blocks/query/query-parameters.js:163
+#: src/blocks/query/query-parameters.js:175
+#: src/blocks/query/query-parameters.js:189
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:622
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:13
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:55
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:16
+msgid "Post"
+msgstr "Entrada"
+
+#: includes/class-render-blocks.php:135 dist/blocks.js:4 dist/blocks.js:6
+#: dist/blocks.js:15 dist/blocks.js:33 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/styles-builder.js:35 src/blocks/image/components/ImagePlaceholder.js:42
+#: src/blocks/image/index.js:27 src/blocks/image/index.js:50
+#: src/blocks/media/components/ImagePlaceholder.jsx:15
+#: src/components/image-upload/ImageUpload.jsx:9
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:78
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:72
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/class-dynamic-content.php:335
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:405
+#: includes/dynamic-tags/class-dynamic-tags.php:178 dist/blocks.js:4
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:127
+msgid "No comments"
+msgstr "Sin comentarios"
+
+#. translators: Aria-label describing the read more button
+#: includes/class-dynamic-content.php:191
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:665
+msgctxt "more on post title"
+msgid "More on %s"
+msgstr "Más en %s"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/parameter-list/RemoveButton.js:7
+#: src/blocks/query/components/ControlBuilder.jsx:135
+msgid "Delete parameter"
+msgstr "Borrar parámetro"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/InspectorControls.js:50
+#: src/blocks/query/components/QueryInspectorControls.jsx:82
+msgid "Inherit query from template"
+msgstr "Heredar la consulta de la plantilla"
+
+#: includes/class-render-blocks.php:93
+msgid "Query loop"
+msgstr "Bucle de consulta"
+
+#. Translators: % is the number of comments.
+#. translators: Number of comments.
+#: includes/class-dynamic-content.php:346
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:407
+#: includes/dynamic-tags/class-dynamic-tags.php:189 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:130
+msgid "% comments"
+msgstr "% comentarios"
+
+#: includes/class-dynamic-content.php:345
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:406 dist/blocks.js:4
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:128
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/AddQueryParameterButton.js:9
+#: src/blocks/query/components/AddQueryParameterButton.jsx:9
+msgid "Add Parameter"
+msgstr "Añadir parámetro"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/SelectQueryParameter.js:24
+#: src/blocks/query-loop/components/inspector-controls/SelectQueryParameter.js:25
+#: src/blocks/query/components/SelectQueryParameter.jsx:24
+#: src/blocks/query/components/SelectQueryParameter.jsx:25
+msgid "Select query parameter"
+msgstr "Seleccionar parámetro de consulta"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/InspectorControls.js:51
+#: src/blocks/query/components/QueryInspectorControls.jsx:83
+msgid "Toggle to use the global query context that is set with the current template, such as an archive or search."
+msgstr "Alterna para usar la consulta en contexto global que se establecerá con la plantilla actual, como alternativa al archivo o búsqueda."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/parameter-list/RemoveButton.js:12
+#: src/blocks/query/components/ControlBuilder.jsx:140
+msgid "This will permanently delete this parameter."
+msgstr "Esto borrará permanentemente este parámetro."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/query-parameters.js:212
+#: src/blocks/query/components/DateQueryControl.jsx:85
+msgid "Limit response to posts published before a given date."
+msgstr "Limitar la respuesta a los mensajes publicados antes de una fecha determinada."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/query-parameters.js:204
+#: src/blocks/query/components/DateQueryControl.jsx:105
+msgid "Limit response to posts published after a given date."
+msgstr "Limitar la respuesta a los mensajes publicados después de una fecha determinada."
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:4 dist/blocks/looper/index.js:4
+#: dist/blocks/query/index.js:4
+#: src/blocks/container/components/BlockAppender.js:72
+#: src/components/block-appender/BlockAppender.jsx:81
+msgid "Select Container"
+msgstr "Seleccionar el contenedor"
+
+#: dist/blocks.js:4 dist/blocks.js:33 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/text/index.js:1 src/blocks/container/components/TagName.js:31
+#: src/blocks/headline/components/TagName.js:35
+#: src/components/tagname-control/TagNameControl.jsx:16
+msgid "Tag Name"
+msgstr "Nombre de la etiqueta"
+
+#: dist/blocks.js:4 dist/blocks.js:33 dist/blocks/media/index.js:1
+#: dist/blocks/shape/index.js:1
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:84
+#: src/blocks/media/components/BlockSettings.jsx:242
+#: src/blocks/shape/components/BlockSettings.jsx:128
+#: src/extend/inspector-control/controls/shapes-panel/index.js:251
+#: src/extend/inspector-control/controls/shapes-panel/index.js:360
+#: src/extend/inspector-control/controls/shapes-panel/index.js:417
+#: src/extend/inspector-control/controls/sizing/index.js:74
+msgid "Height"
+msgstr "Altura"
+
+#: dist/blocks.js:4 dist/blocks/shape/index.js:1
+#: src/blocks/shape/components/ShapeDividerControls.jsx:56
+#: src/extend/inspector-control/controls/shapes-panel/index.js:230
+msgid "Location"
+msgstr "Ubicación"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:802
+#: src/extend/inspector-control/controls/background-panel/components/image-size.js:16
+msgid "Image Size"
+msgstr "Tamaño de la imagen"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: src/components/image-upload/ImageUpload.jsx:58
+#: src/extend/inspector-control/controls/background-panel/components/image-url.js:61
+msgid "Browse"
+msgstr "Explorar"
+
+#: dist/blocks.js:33 dist/blocks/text/index.js:1
+#: src/blocks/headline/components/ToolbarGroup.js:131
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:37
+msgid "Div"
+msgstr "Div"
+
+#: dist/blocks.js:33 dist/blocks/text/index.js:1
+#: src/blocks/headline/components/ToolbarGroup.js:119
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:33
+msgid "Paragraph"
+msgstr "Párrafo"
+
+#: dist/blocks.js:3 dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/blocks/shape/components/BlockSettings.jsx:64
+#: src/blocks/text/components/BlockSettings.jsx:51
+#: src/components/icon-picker/index.js:68
+msgid "Social"
+msgstr "Social"
+
+#: dist/blocks.js:3 dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/blocks/shape/components/BlockSettings.jsx:60
+#: src/blocks/text/components/BlockSettings.jsx:47
+#: src/components/icon-picker/index.js:64
+msgid "General"
+msgstr "General"
+
+#: includes/class-rest.php:235
+msgid "CSS files regenerated."
+msgstr "Los archivos CSS se han regenerado."
+
+#: includes/class-rest.php:215
+msgid "No changes found."
+msgstr "No se han encontrado cambios."
+
+#. translators: Shape number
+#: includes/functions.php:808 includes/functions.php:813
+#: includes/functions.php:818 includes/functions.php:823
+#: includes/functions.php:828 includes/functions.php:833
+#: includes/functions.php:838 includes/functions.php:843
+#: includes/functions.php:848 includes/functions.php:853
+#: includes/functions.php:858 includes/functions.php:863
+msgid "Triangle %s"
+msgstr "Triángulo %s"
+
+#: includes/functions.php:804
+msgid "Triangles"
+msgstr "Triángulos"
+
+#. translators: Shape number
+#: includes/functions.php:783 includes/functions.php:788
+#: includes/functions.php:793 includes/functions.php:798
+msgid "Curve %s"
+msgstr "Curva %s"
+
+#: includes/functions.php:779
+msgid "Curves"
+msgstr "Curvas"
+
+#. translators: Shape number
+#: includes/functions.php:773
+msgid "Angle %s"
+msgstr "Ángulo %s"
+
+#: includes/functions.php:769
+msgid "Angles"
+msgstr "Ángulos"
+
+#. translators: Shape number
+#: includes/functions.php:728 includes/functions.php:733
+#: includes/functions.php:738 includes/functions.php:743
+#: includes/functions.php:748 includes/functions.php:753
+#: includes/functions.php:758 includes/functions.php:763
+msgid "Wave %s"
+msgstr "Onda %s"
+
+#: includes/functions.php:724
+msgid "Waves"
+msgstr "Ondas"
+
+#: dist/blocks.js:4 dist/blocks.js:33 dist/blocks/media/index.js:1
+#: dist/blocks/shape/index.js:1
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:71
+#: src/blocks/media/components/BlockSettings.jsx:233
+#: src/blocks/shape/components/BlockSettings.jsx:119
+#: src/extend/inspector-control/controls/shapes-panel/index.js:277
+#: src/extend/inspector-control/controls/shapes-panel/index.js:386
+#: src/extend/inspector-control/controls/shapes-panel/index.js:443
+#: src/extend/inspector-control/controls/sizing/index.js:68
+msgid "Width"
+msgstr "Anchura"
+
+#: includes/class-rest.php:183 includes/class-rest.php:222
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: dist/blocks.js:3 dist/blocks.js:33 dist/blocks/media/index.js:1
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:52
+#: src/blocks/media/components/BlockSettings.jsx:200
+#: src/extend/inspector-control/controls/background-panel/components/size.js:7
+msgid "Size"
+msgstr "Tamaño"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:86
+#: src/extend/inspector-control/controls/typography/index.js:90
+msgid "Text Alignment"
+msgstr "Alineación del texto"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/looper/index.js:4
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:32
+#: src/block-context/grid.js:11
+#: src/blocks/element/components/BlockSettings.jsx:90
+#: src/blocks/looper/components/BlockSettings.jsx:52
+#: src/extend/inspector-control/controls/layout/index.js:151
+msgid "Layout"
+msgstr "Diseño"
+
+#: dist/blocks/text/index.js:1 src/blocks/text/components/BlockSettings.jsx:148
+msgid "Icon Color"
+msgstr "Color del icono"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/blocks/container/components/LegacyLayoutControls.js:123
+#: src/blocks/container/components/LegacyLayoutControls.js:146
+#: src/blocks/container/components/LegacyLayoutControls.js:166
+#: src/blocks/grid/components/InspectorControls.js:68
+#: src/blocks/grid/components/InspectorControls.js:84
+#: src/blocks/grid/components/InspectorControls.js:106
+#: src/blocks/grid/components/InspectorControls.js:123
+#: src/blocks/grid/components/InspectorControls.js:145
+#: src/blocks/grid/components/InspectorControls.js:162
+#: src/components/alignment-matrix/components/matrix.js:10
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:52
+#: src/extend/inspector-control/controls/icon/options.js:6
+msgid "Center"
+msgstr "Centro"
+
+#: dist/blocks.js:3 dist/blocks.js:15 dist/blocks.js:33
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/block-context/headline.js:103 src/blocks/button/block.js:73
+#: src/blocks/headline/block.js:75
+#: src/blocks/text/components/BlockSettings.jsx:106 src/blocks/text/edit.js:120
+#: src/blocks/text/edit.js:126 src/blocks/text/edit.js:131
+#: src/blocks/text/edit.js:133 src/blocks/text/index.js:25
+#: src/extend/inspector-control/controls/icon/index.js:28
+msgid "Icon"
+msgstr "Icono"
+
+#: includes/class-render-blocks.php:122 dist/blocks.js:15
+#: src/blocks/button/block.js:42 src/blocks/button/block.js:79
+msgid "Button"
+msgstr "Botón"
+
+#: dist/blocks.js:15 dist/blocks/text/index.js:1
+#: src/blocks/button/components/InspectorAdvancedControls.js:12
+#: src/blocks/text/components/BlockSettings.jsx:178
+msgid "ARIA Label"
+msgstr "Etiqueta ARIA"
+
+#: dist/blocks.js:3 dist/blocks/text/index.js:1
+#: src/blocks/text/components/BlockSettings.jsx:155
+#: src/components/icon-picker/index.js:212
+#: src/extend/inspector-control/controls/icon/components/icon-location.js:7
+msgid "Icon Location"
+msgstr "Ubicación del icono"
+
+#: dist/blocks.js:3 dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:1 dist/components.js:4
+#: src/blocks/shape/components/BlockSettings.jsx:97
+#: src/blocks/text/components/BlockSettings.jsx:140
+#: src/components/icon-picker/index.js:141
+msgid "Clear"
+msgstr "Vaciar"
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:137
+#: src/components/link-control/index.js:69
+#: src/components/url-controls/URLControls.jsx:91
+msgid "Open link in a new tab"
+msgstr "Abrir el enlace en una nueva pestaña"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:234 dist/blocks.js:3
+#: dist/blocks.js:4 dist/blocks.js:6 dist/blocks/element/index.js:4
+#: dist/blocks/text/index.js:1 dist/pattern-library.js:2
+#: dist/styles-builder.js:32 dist/styles-builder.js:35
+#: src/blocks/container/components/LegacyLayoutControls.js:121
+#: src/blocks/container/components/LegacyLayoutControls.js:144
+#: src/blocks/container/components/LegacyLayoutControls.js:164
+#: src/blocks/grid/components/InspectorControls.js:66
+#: src/blocks/grid/components/InspectorControls.js:82
+#: src/blocks/grid/components/InspectorControls.js:104
+#: src/blocks/grid/components/InspectorControls.js:121
+#: src/blocks/grid/components/InspectorControls.js:143
+#: src/blocks/grid/components/InspectorControls.js:160
+#: src/components/alignment-toolbar/BlockWidth.jsx:41
+#: src/extend/block-controls/controls/alignment-matrix-control.js:70
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:90
+#: src/extend/inspector-control/controls/borders/components/style-dropdown.js:27
+#: src/extend/inspector-control/controls/layout/components/Display.js:12
+#: src/extend/inspector-control/controls/layout/components/ThemeWidth.js:25
+#: src/extend/inspector-control/controls/layout/index.js:172
+#: src/extend/inspector-control/controls/layout/options.js:79
+#: src/extend/inspector-control/controls/layout/options.js:91
+#: src/extend/inspector-control/controls/typography/options.js:7
+#: src/extend/inspector-control/controls/typography/options.js:21
+#: src/pattern-library/components/manage-libraries.js:118
+msgid "Default"
+msgstr "Por defecto"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/block-context/button.js:114
+#: src/blocks/grid/components/InspectorControls.js:83
+#: src/blocks/grid/components/InspectorControls.js:122
+#: src/blocks/grid/components/InspectorControls.js:161
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:47
+#: src/components/dimensions/labels.js:6
+#: src/extend/inspector-control/controls/borders/index.js:34
+msgid "Left"
+msgstr "Izquierda"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/container/components/LegacyLayoutControls.js:124
+#: src/blocks/container/components/LegacyLayoutControls.js:147
+#: src/blocks/container/components/LegacyLayoutControls.js:167
+#: src/blocks/grid/components/InspectorControls.js:69
+#: src/blocks/grid/components/InspectorControls.js:107
+#: src/blocks/grid/components/InspectorControls.js:146
+#: src/blocks/shape/components/ShapeDividerControls.jsx:60
+#: src/components/dimensions/labels.js:8
+#: src/extend/inspector-control/controls/borders/index.js:33
+#: src/extend/inspector-control/controls/icon/options.js:7
+#: src/extend/inspector-control/controls/shapes-panel/index.js:234
+msgid "Bottom"
+msgstr "Inferior"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/block-context/button.js:115
+#: src/blocks/grid/components/InspectorControls.js:85
+#: src/blocks/grid/components/InspectorControls.js:124
+#: src/blocks/grid/components/InspectorControls.js:163
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:57
+#: src/components/dimensions/labels.js:7
+#: src/extend/inspector-control/controls/borders/index.js:32
+msgid "Right"
+msgstr "Derecha"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/container/components/LegacyLayoutControls.js:122
+#: src/blocks/container/components/LegacyLayoutControls.js:145
+#: src/blocks/container/components/LegacyLayoutControls.js:165
+#: src/blocks/grid/components/InspectorControls.js:67
+#: src/blocks/grid/components/InspectorControls.js:105
+#: src/blocks/grid/components/InspectorControls.js:144
+#: src/blocks/shape/components/ShapeDividerControls.jsx:59
+#: src/components/dimensions/labels.js:5
+#: src/extend/inspector-control/controls/borders/index.js:31
+#: src/extend/inspector-control/controls/icon/options.js:5
+#: src/extend/inspector-control/controls/shapes-panel/index.js:233
+msgid "Top"
+msgstr "Superior"
+
+#: includes/class-render-blocks.php:106 dist/blocks.js:15
+#: src/blocks/button-container/block.js:33
+#: src/blocks/button-container/block.js:62
+msgid "Buttons"
+msgstr "Botones"
+
+#: includes/class-render-blocks.php:114 dist/blocks.js:6 dist/blocks.js:33
+#: src/blocks/headline/block.js:42 src/blocks/headline/block.js:81
+#: src/blocks/headline/components/HeadlineContentRenderer.js:82
+msgid "Headline"
+msgstr "Titular"
+
+#: includes/class-render-blocks.php:60 dist/blocks.js:4 dist/blocks.js:15
+#: src/blocks/container/block.js:36 src/blocks/container/block.js:70
+#: src/blocks/container/components/LegacyLayoutControls.js:43
+msgid "Container"
+msgstr "Contenedor"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://tomusborne.com"
+msgstr "https://tomusborne.com"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Tom Usborne"
+msgstr "Tom Usborne"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://generateblocks.com"
+msgstr "https://generateblocks.com"
+
+#. Plugin Name of the plugin
+#: plugin.php includes/dashboard.php:20 includes/dashboard.php:21
+#: includes/general.php:326 dist/dashboard.js:1 dist/editor-sidebar.js:1
+#: src/dashboard.js:11 src/editor-sidebar/index.js:56
+#: src/editor-sidebar/index.js:67
+msgid "GenerateBlocks"
+msgstr "GenerateBlocks"
+
+#: includes/class-settings.php:52 includes/class-settings.php:53
+#: includes/dashboard.php:183 dist/block-styles.js:1 dist/settings.js:1
+#: src/settings.js:99
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Description of the plugin
+#: plugin.php
+msgid "A small collection of lightweight WordPress blocks that can accomplish nearly anything."
+msgstr "Una pequeña colección de bloques ligeros para WordPress que pueden lograr casi cualquier cosa."
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:147
+#: src/components/link-control/index.js:77
+#: src/components/url-controls/URLControls.jsx:109
+msgid "Add rel=\"nofollow\""
+msgstr "Añadir rel=\"nofollow\""
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:157
+#: src/components/link-control/index.js:85
+#: src/components/url-controls/URLControls.jsx:136
+msgid "Add rel=\"sponsored\""
+msgstr "Añadir rel=\"sponsored\""
+
+#: includes/class-render-blocks.php:80 dist/blocks.js:1 dist/blocks.js:4
+#: src/blocks/grid/block.js:33 src/blocks/grid/block.js:61
+#: src/blocks/grid/components/LayoutSelector.js:60
+msgid "Grid"
+msgstr "Cuadrícula"
