@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>eugenio &#8211; eugenioazurmendi</title>
-	<atom:link href="https://eugenioazurmendi.com.ar/author/eugenio/feed/" rel="self" type="application/rss+xml" />
+	<title>Taller &#8211; eugenioazurmendi</title>
+	<atom:link href="https://eugenioazurmendi.com.ar/category/taller/feed/" rel="self" type="application/rss+xml" />
 	<link>https://eugenioazurmendi.com.ar/</link>
 	<description>...compartiendo...</description>
-	<lastBuildDate>Tue, 18 Mar 2025 02:36:39 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 17 Mar 2025 20:32:20 +0000</lastBuildDate>
 	<language>es-AR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -162,36 +162,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://eugenioazurmendi.com.ar/mi-web/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Berta</title>
-		<link>https://eugenioazurmendi.com.ar/berta/</link>
-					<comments>https://eugenioazurmendi.com.ar/berta/#respond</comments>
-		
-		<dc:creator><![CDATA[eugenio]]></dc:creator>
-		<pubDate>Mon, 17 Mar 2025 02:35:12 +0000</pubDate>
-				<category><![CDATA[Bitácora]]></category>
-		<category><![CDATA[MercedesBenz608D]]></category>
-		<category><![CDATA[ViajePorSudamerica]]></category>
-		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=154</guid>
-
-					<description><![CDATA[Nuestra casa...]]></description>
-										<content:encoded><![CDATA[
-<p>Viajando con Berta, dejándome aprender.</p>
-
-
-
-<p>Berta es el nombre de nuestro camión Mercedes Benz 608D modelo 1975 carrozado por Futura que nos lleva hace 3 años por Sudámerica (decir &#8220;toda&#8221; sudámerica sería un poco pretensioso ya que &#8220;toda&#8221; es imposible de abarcar)</p>
-
-
-
-<p>Es un camión hermoso&#8230;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://eugenioazurmendi.com.ar/berta/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
