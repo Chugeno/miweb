@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>eugenioazurmendi</title>
+	<atom:link href="https://eugenioazurmendi.com.ar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://eugenioazurmendi.com.ar/</link>
+	<description>...compartiendo...</description>
+	<lastBuildDate>Tue, 18 Mar 2025 02:36:39 +0000</lastBuildDate>
+	<language>es-AR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.2</generator>
+	<item>
+		<title>mi Web</title>
+		<link>https://eugenioazurmendi.com.ar/mi-web/</link>
+					<comments>https://eugenioazurmendi.com.ar/mi-web/#respond</comments>
+		
+		<dc:creator><![CDATA[eugenio]]></dc:creator>
+		<pubDate>Mon, 17 Mar 2025 20:04:34 +0000</pubDate>
+				<category><![CDATA[miWeb]]></category>
+		<category><![CDATA[Taller]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[miweb]]></category>
+		<category><![CDATA[simplystatic]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=194</guid>
+
+					<description><![CDATA[Nuestra casa...]]></description>
+										<content:encoded><![CDATA[
+<p>Logré hacer mi web con wordpress (un diseño muy sencillo) y alojarla en GitHub Pages que es gratis.</p>
+
+
+
+<p>Lo unico que pagué es mi dominio</p>
+
+
+
+<p>Uso <a href="https://localwp.com/">Local</a> para crear mi sitio localmente (incluso sin internet), luego exporto con el plugin <a href="https://simplystatic.com/">Simply Static</a> y por ultimo sincronizo en mi repositorio de github donde esta alojada mi web usando <a href="https://desktop.github.com/download/">Github Desktop</a> por ejemplo.</p>
+
+
+
+<h2 class="gb-text">Instructivo</h2>
+
+
+
+<ol class="wp-block-list">
+<li>Instalar Local, crear sitio, instalar plugin Simply Static</li>
+
+
+
+<li>Crear repositorio en github el cual sera el sitio</li>
+
+
+
+<li>Crear archivo CNAME (sin extension) que solo tenga una linea con el dominio propio y ponerlo en el repositorio</li>
+
+
+
+<li>Configurar que sea GitHub Pages, poner dominio propio</li>
+
+
+
+<li>Crear DNS record 
+<ul class="wp-block-list">
+<li><strong>Tipo:</strong> <code>CNAME</code></li>
+
+
+
+<li><strong>Nombre:</strong> <code>www</code></li>
+
+
+
+<li><strong>Valor:</strong> <code>TU-USUARIO.github.io</code> (por ejemplo, <code>Chugeno.github.io</code>)</li>
+
+
+
+<li><strong>Proxy:</strong> <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Desactivado (debe ser &#8220;DNS only&#8221;)</li>
+
+
+
+<li>&#8212;-</li>
+
+
+
+<li><strong>Tipo:</strong>&nbsp;<code>CNAME</code></li>
+
+
+
+<li><strong>Nombre:</strong><code>@</code></li>
+
+
+
+<li><strong>Valor:</strong>&nbsp;<code>TU-USUARIO.github.io</code>&nbsp;(por ejemplo,&nbsp;<code>Chugeno.github.io</code>)</li>
+
+
+
+<li><strong>Proxy:</strong> <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Desactivado (debe ser &#8220;DNS only&#8221;)</li>
+</ul>
+</li>
+
+
+
+<li>Clonar repositorio en una carpeta actual</li>
+
+
+
+<li>Configurar SimplyStatic
+<ul class="wp-block-list">
+<li>Absolute URL &#8220;tudominio.com&#8221;</li>
+
+
+
+<li>Additional Files and Directories (tu directorio de Local)
+<ul class="wp-block-list">
+<li>~/public/wp-content/uploads</li>
+
+
+
+<li>~/public/wp-content</li>
+</ul>
+</li>
+
+
+
+<li>Deploy
+<ul class="wp-block-list">
+<li>Local Directory
+<ul class="wp-block-list">
+<li>La ruta de tu carpeta local del repositorio clonado</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li>Exportar el sitio</li>
+
+
+
+<li>sincronizar y hacer commit con git</li>
+</ol>
+
+
+
+<h2 class="gb-text">Disfrutar de tu web publicada <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h2>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://eugenioazurmendi.com.ar/mi-web/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Berta</title>
+		<link>https://eugenioazurmendi.com.ar/berta/</link>
+					<comments>https://eugenioazurmendi.com.ar/berta/#respond</comments>
+		
+		<dc:creator><![CDATA[eugenio]]></dc:creator>
+		<pubDate>Mon, 17 Mar 2025 02:35:12 +0000</pubDate>
+				<category><![CDATA[Bitácora]]></category>
+		<category><![CDATA[MercedesBenz608D]]></category>
+		<category><![CDATA[ViajePorSudamerica]]></category>
+		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=154</guid>
+
+					<description><![CDATA[Nuestra casa...]]></description>
+										<content:encoded><![CDATA[
+<p>Viajando con Berta, dejándome aprender.</p>
+
+
+
+<p>Berta es el nombre de nuestro camión Mercedes Benz 608D modelo 1975 carrozado por Futura que nos lleva hace 3 años por Sudámerica (decir &#8220;toda&#8221; sudámerica sería un poco pretensioso ya que &#8220;toda&#8221; es imposible de abarcar)</p>
+
+
+
+<p>Es un camión hermoso&#8230;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://eugenioazurmendi.com.ar/berta/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
