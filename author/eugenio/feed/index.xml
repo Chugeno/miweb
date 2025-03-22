@@ -12,7 +12,7 @@
 	<atom:link href="https://eugenioazurmendi.com.ar/author/eugenio/feed/" rel="self" type="application/rss+xml" />
 	<link>https://eugenioazurmendi.com.ar/</link>
 	<description>...compartiendo...</description>
-	<lastBuildDate>Sat, 22 Mar 2025 19:08:10 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 22 Mar 2025 19:35:53 +0000</lastBuildDate>
 	<language>es-AR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,186 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
+		<title>Berta</title>
+		<link>https://eugenioazurmendi.com.ar/berta-2/</link>
+		
+		<dc:creator><![CDATA[eugenio]]></dc:creator>
+		<pubDate>Sat, 22 Mar 2025 19:35:20 +0000</pubDate>
+				<category><![CDATA[Logbook]]></category>
+		<category><![CDATA[MercedesBenz608D]]></category>
+		<category><![CDATA[ViajePorSudamerica]]></category>
+		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=274</guid>
+
+					<description><![CDATA[Nuestra casa...]]></description>
+										<content:encoded><![CDATA[
+<p>Traveling with Berta, letting me learn.</p>
+
+
+
+<p>Berta is the name of our 1975 model Mercedes Benz 608D truck, bodied by Futura, which has been taking us around South America for 3 years (to say “all” South America would be a bit pretentious since “all” is impossible to cover).</p>
+
+
+
+<p>It is a beautiful truck…</p>
+
+
+
+<p>Here&#8217;s the route so far, about 23000 km</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="791" height="1024" src="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png" alt="" class="wp-image-249" srcset="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png 791w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-232x300.png 232w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-768x994.png 768w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1187x1536.png 1187w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1583x2048.png 1583w" sizes="(max-width: 791px) 100vw, 791px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>My Web</title>
+		<link>https://eugenioazurmendi.com.ar/my-web/</link>
+		
+		<dc:creator><![CDATA[eugenio]]></dc:creator>
+		<pubDate>Sat, 22 Mar 2025 19:32:58 +0000</pubDate>
+				<category><![CDATA[Workshop]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[myweb]]></category>
+		<category><![CDATA[simplystatic]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=271</guid>
+
+					<description><![CDATA[Nuestra casa...]]></description>
+										<content:encoded><![CDATA[
+<p>I managed to make my website with wordpress (a very simple design) and host it on GitHub Pages which is free.</p>
+
+
+
+<p>The only thing I paid for is my domain</p>
+
+
+
+<p>I use Local to create my site locally (even without internet), then I export with Simply Static plugin and finally I sync to my github repository where my website is hosted using Github Desktop for example.</p>
+
+
+
+<h2 class="gb-text">Instructions</h2>
+
+
+
+<ol class="wp-block-list">
+<li>Install Local, create site, install Simply Static plugin</li>
+
+
+
+<li>Create repository on github which will be the site</li>
+
+
+
+<li>Create CNAME file (no extension) with only one line with your own domain and put it in the repository</li>
+
+
+
+<li>Configure it to be GitHub Pages, set up your own domain</li>
+
+
+
+<li>Create DNS record
+<ul class="wp-block-list">
+<li>Type: CNAME</li>
+
+
+
+<li>Name: www</li>
+
+
+
+<li>Value: YOUR-USER.github.io (for example, Chugeno.github.io)</li>
+
+
+
+<li>&#8212;-</li>
+
+
+
+<li>Proxy: <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Disabled (must be “DNS only”)</li>
+</ul>
+
+
+
+<ul class="wp-block-list">
+<li>Type: CNAME</li>
+
+
+
+<li>Name:@</li>
+
+
+
+<li>Value: YOUR-USER.github.io (e.g. Chugeno.github.io)</li>
+
+
+
+<li>Proxy: <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Disabled (must be “DNS only”)</li>
+</ul>
+</li>
+
+
+
+<li>Clone repository to a current folder</li>
+
+
+
+<li>Configure SimplyStatic
+<ul class="wp-block-list">
+<li>Absolute URL “yourdomain.com</li>
+
+
+
+<li>Additional Files and Directories (your Local directory)
+<ul class="wp-block-list">
+<li>~/public/wp-content/uploads</li>
+
+
+
+<li>~/public/wp-content</li>
+</ul>
+</li>
+
+
+
+<li>Deploy
+<ul class="wp-block-list">
+<li>Local Directory
+<ul class="wp-block-list">
+<li>The path of your local folder of the cloned repository</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+<li>Export the site</li>
+
+
+
+<li>sync and commit with git</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="gb-text">Enjoy your published website <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></h2>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>mi Web</title>
 		<link>https://eugenioazurmendi.com.ar/mi-web/</link>
 		
@@ -192,7 +372,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="791" height="1024" src="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png" alt="" class="wp-image-249" srcset="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png 791w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-232x300.png 232w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-768x994.png 768w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1187x1536.png 1187w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1583x2048.png 1583w" sizes="(max-width: 791px) 100vw, 791px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="791" height="1024" src="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png" alt="" class="wp-image-249" srcset="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png 791w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-232x300.png 232w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-768x994.png 768w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1187x1536.png 1187w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1583x2048.png 1583w" sizes="(max-width: 791px) 100vw, 791px" /></figure>
 ]]></content:encoded>
 					
 		

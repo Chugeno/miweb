@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comentarios para eugenioazurmendi	</title>
-	<atom:link href="https://eugenioazurmendi.com.ar/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://eugenioazurmendi.com.ar/</link>
+	Comentarios en: My Web	</title>
+	<atom:link href="https://eugenioazurmendi.com.ar/my-web/feed/" rel="self" type="application/rss+xml" />
+	<link>https://eugenioazurmendi.com.ar/my-web/</link>
 	<description>...compartiendo...</description>
-	<lastBuildDate>Sat, 22 Mar 2025 20:29:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 22 Mar 2025 19:34:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
