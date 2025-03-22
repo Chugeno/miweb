@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-05 18:57:47+0000\n"
+"PO-Revision-Date: 2025-03-20 13:58:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/compat/wordpress-6.8/rest-api.php:154
+msgid "A list of allowed area values for template parts."
+msgstr "Una lista de valores de área permitidos para partes de plantilla."
+
+#: lib/compat/wordpress-6.8/rest-api.php:123
+msgid "A list of default template types."
+msgstr "Una lisat de tipos de plantilla por defecto."
 
 #. translators: %s: Post format name.
 #: lib/compat/wordpress-6.8/block-template-utils.php:21
@@ -22,7 +30,7 @@ msgctxt "Template name"
 msgid "Post Format: %s"
 msgstr "Formato de entrada: %s"
 
-#: lib/compat/wordpress-6.8/rest-api.php:101
+#: lib/compat/wordpress-6.8/rest-api.php:65
 msgid "Whether to ignore sticky posts or not."
 msgstr "Ignorar (o no) las entradas fijas."
 
@@ -658,13 +666,13 @@ msgid "reusable"
 msgstr "reutilizable"
 
 #: build/block-library/blocks/footnotes.php:123
-#: build/block-library/index.js:66063 build/block-library/index.js:66075
+#: build/block-library/index.js:66175 build/block-library/index.js:66187
 msgid "Footnotes"
 msgstr "Notas al pie de página"
 
 #: lib/experiments-page.php:89
-msgid "Disables the TinyMCE and Classic block"
-msgstr "Desactiva TinyMCE y el bloque clásico"
+msgid "Disables the TinyMCE and Classic block."
+msgstr "Desactiva TinyMCE y el bloque clásico."
 
 #: lib/class-wp-theme-json-resolver-gutenberg.php:363
 msgid "`experimental-link-color` is no longer supported. Use `link-color` instead."
@@ -747,7 +755,7 @@ msgstr "Detalles"
 
 #. translators: %s: the number of minutes to read the post.
 #: build/block-library/blocks/post-time-to-read.php:36
-#: build/block-library/index.js:46208 build/editor/index.js:32600
+#: build/block-library/index.js:46309 build/editor/index.js:32594
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s minuto"
@@ -908,7 +916,7 @@ msgstr "Algunos de los valores «theme.json settings.spacing.spacingScale» no s
 
 #. translators: %s: Number of comments.
 #: build/block-library/blocks/comments-title.php:61
-#: build/block-library/index.js:12206
+#: build/block-library/index.js:12277
 msgid "%s response"
 msgid_plural "%s responses"
 msgstr[0] "%s respuesta"
@@ -916,7 +924,7 @@ msgstr[1] "%s respuestas"
 
 #. translators: 1: Number of comments, 2: Post title.
 #: build/block-library/blocks/comments-title.php:47
-#: build/block-library/index.js:12200
+#: build/block-library/index.js:12271
 msgid "%1$s response to %2$s"
 msgid_plural "%1$s responses to %2$s"
 msgstr[0] "%1$s respuesta a %2$s"
@@ -934,12 +942,12 @@ msgstr "Comentarios"
 
 #. translators: %s: Post title.
 #: build/block-library/blocks/comments-title.php:68
-#: build/block-library/index.js:12211
+#: build/block-library/index.js:12282
 msgid "Response to %s"
 msgstr "Respuesta a %s"
 
 #: build/block-library/blocks/comments-title.php:74
-#: build/block-library/index.js:12217
+#: build/block-library/index.js:12288
 msgid "Response"
 msgstr "Respuesta"
 
@@ -963,23 +971,23 @@ msgstr "Título de los comentarios"
 
 #. translators: %s: Post title.
 #: build/block-library/blocks/comments-title.php:71
-#: build/block-library/index.js:12214
+#: build/block-library/index.js:12285
 msgid "Responses to %s"
 msgstr "Respuestas a %s"
 
 #. translators: %s: Post title.
 #: build/block-library/blocks/comments-title.php:43
-#: build/block-library/index.js:9366 build/block-library/index.js:12197
+#: build/block-library/index.js:9431 build/block-library/index.js:12268
 msgid "One response to %s"
 msgstr "Una respuesta a %s"
 
 #: build/block-library/blocks/comments-title.php:76
-#: build/block-library/index.js:12219
+#: build/block-library/index.js:12290
 msgid "Responses"
 msgstr "Respuestas"
 
 #: build/block-library/blocks/comments-title.php:57
-#: build/block-library/index.js:12203
+#: build/block-library/index.js:12274
 msgid "One response"
 msgstr "Una respuesta"
 
@@ -1086,14 +1094,14 @@ msgid "Sorry, you are not allowed to edit this global style."
 msgstr "Lo siento, no tienes permisos para editar este estilo global."
 
 #: build/block-library/blocks/comments-pagination-previous.php:20
-#: build/block-library/index.js:9373 build/block-library/index.js:9456
-#: build/block-library/index.js:11498 build/block-library/index.js:11571
+#: build/block-library/index.js:9438 build/block-library/index.js:9521
+#: build/block-library/index.js:11569 build/block-library/index.js:11642
 msgid "Older Comments"
 msgstr "Comentarios anteriores"
 
 #: build/block-library/blocks/comments-pagination-next.php:27
-#: build/block-library/index.js:9379 build/block-library/index.js:9462
-#: build/block-library/index.js:11853 build/block-library/index.js:11929
+#: build/block-library/index.js:9444 build/block-library/index.js:9527
+#: build/block-library/index.js:11924 build/block-library/index.js:12000
 msgid "Newer Comments"
 msgstr "Comentarios siguientes"
 
@@ -1123,7 +1131,7 @@ msgid "Displays the next comment's page link."
 msgstr "Muestra el enlace a la página de comentarios siguientes."
 
 #: build/block-library/blocks/site-logo.php:97
-#: build/block-library/index.js:35028
+#: build/block-library/index.js:35121
 msgid "Icon"
 msgstr "Icono"
 
@@ -2151,12 +2159,12 @@ msgid "(Home link, opens in a new tab)"
 msgstr "(enlace a «Inicio», se abre en una nueva pestaña)"
 
 #: build/block-library/blocks/navigation.php:492
-#: build/block-library/index.js:34659
+#: build/block-library/index.js:34752
 msgid "Close menu"
 msgstr "Cerrar el menú"
 
 #: build/block-library/blocks/navigation.php:491
-#: build/block-library/index.js:34641
+#: build/block-library/index.js:34734
 msgid "Open menu"
 msgstr "Abrir el menú"
 
@@ -2291,13 +2299,13 @@ msgid "Custom Link"
 msgstr "Enlace personalizado"
 
 #. translators: %s: filename.
-#: build/block-library/blocks/file.php:35 build/block-library/index.js:18391
-#: build/block-library/index.js:18500 build/block-library/index.js:18601
+#: build/block-library/blocks/file.php:35 build/block-library/index.js:18469
+#: build/block-library/index.js:18578 build/block-library/index.js:18679
 msgid "Embed of %s."
 msgstr "Incrustado de %s."
 
-#: build/block-library/blocks/file.php:37 build/block-library/index.js:18390
-#: build/block-library/index.js:18499 build/block-library/index.js:18600
+#: build/block-library/blocks/file.php:37 build/block-library/index.js:18468
+#: build/block-library/index.js:18577 build/block-library/index.js:18678
 msgid "PDF embed"
 msgstr "PDF incrustado"
 
@@ -2311,7 +2319,7 @@ msgstr "Enlace a formato de entrada"
 
 #: build/block-library/blocks/latest-posts.php:169
 #: build/block-library/blocks/latest-posts.php:184
-#: build/block-library/index.js:43286
+#: build/block-library/index.js:43387
 msgid "This content is password protected."
 msgstr "Este contenido está protegido por contraseña."
 
@@ -2339,7 +2347,7 @@ msgstr "Lista de páginas"
 
 #. translators: %s: taxonomy's singular name
 #: build/block-library/blocks/categories.php:46
-#: build/block-library/index.js:6543
+#: build/block-library/index.js:6608
 msgid "Select %s"
 msgstr "Seleccionar %s"
 
@@ -2354,7 +2362,7 @@ msgid "Next"
 msgstr "Siguiente"
 
 #: build/block-library/blocks/query-pagination-previous.php:26
-#: build/block-library/index.js:51420
+#: build/block-library/index.js:51521
 msgid "Previous Page"
 msgstr "Página anterior"
 
@@ -2364,13 +2372,13 @@ msgid "Comments Page Numbers"
 msgstr "Comentarios de números de paginación"
 
 #: build/block-library/blocks/query-pagination-next.php:29
-#: build/block-library/index.js:51143
+#: build/block-library/index.js:51244
 msgid "Next Page"
 msgstr "Página siguiente"
 
 #. translators: %s: Template part slug.
 #: build/block-library/blocks/template-part.php:122
-#: build/block-library/index.js:63822
+#: build/block-library/index.js:63934
 msgid "Template part has been deleted or is unavailable: %s"
 msgstr "La parte de la plantilla ha sido borrada o no está disponible: %s"
 
@@ -2402,13 +2410,13 @@ msgctxt "block title"
 msgid "Comments Count"
 msgstr "Contador de comentarios"
 
-#: build/block-library/index.js:10429
+#: build/block-library/index.js:10494
 #: build/block-library/blocks/comment-date/block.json
 msgctxt "block title"
 msgid "Comment Date"
 msgstr "Fecha del comentario"
 
-#: build/block-library/index.js:10251
+#: build/block-library/index.js:10316
 #: build/block-library/blocks/comment-content/block.json
 msgctxt "block title"
 msgid "Comment Content"
@@ -2642,21 +2650,25 @@ msgstr "No existe ninguna plantilla con ese id."
 msgid "The id of a template"
 msgstr "El id de una plantilla"
 
+#: lib/compat/wordpress-6.8/admin-bar.php:26
+msgid "Edit Site"
+msgstr "Editar sitio"
+
 #: build/block-library/blocks/site-logo.php:78
 msgid "Site logo."
 msgstr "Logotipo del sitio."
 
 #: lib/compat/wordpress-6.8/site-editor.php:150
-#: build/block-editor/index.js:74991 build/block-editor/index.js:74994
-#: build/block-library/index.js:63733 build/blocks/index.js:8089
-#: build/edit-site/index.js:14714 build/edit-site/index.js:14816
-#: build/edit-site/index.js:26517 build/editor/index.js:33323
+#: build/block-editor/index.js:74990 build/block-editor/index.js:74993
+#: build/block-library/index.js:63845 build/blocks/index.js:8089
+#: build/edit-site/index.js:14749 build/edit-site/index.js:14851
+#: build/edit-site/index.js:26566 build/editor/index.js:33317
 msgid "Design"
 msgstr "Diseño"
 
 #. translators: byline. %s: author.
 #: build/block-library/blocks/latest-posts.php:127
-#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29322
+#: build/block-library/blocks/rss.php:67 build/block-library/index.js:29415
 msgid "by %s"
 msgstr "por %s"
 
@@ -2666,31 +2678,31 @@ msgid "Notifications"
 msgstr "Avisos"
 
 #: build/block-library/blocks/query-title.php:41
-#: build/block-library/index.js:51716
+#: build/block-library/index.js:51817
 msgid "Search results"
 msgstr "Resultados de búsqueda"
 
 #. translators: accessibility text for the content landmark region.
 #: lib/experimental/navigation-theme-opt-in.php:351
-#: build/block-editor/index.js:76334 build/edit-widgets/index.js:1443
-#: build/editor/index.js:12987 build/editor/index.js:33455
-#: build/editor/index.js:33510 build/edit-widgets/index.min.js:1456
+#: build/block-editor/index.js:76333 build/edit-widgets/index.js:1443
+#: build/editor/index.js:12988 build/editor/index.js:33449
+#: build/editor/index.js:33504 build/edit-widgets/index.min.js:1456
 msgid "Content"
 msgstr "Contenido"
 
 #. translators: 'menu' as in website navigation menu.
 #: build/block-library/blocks/navigation.php:488
 #: build/block-library/blocks/navigation.php:610
-#: build/block-library/index.js:34634 build/block-library/index.js:34646
-#: build/block-library/index.js:35571 build/block-library/index.js:36557
-#: build/block-library/index.js:37017 build/core-data/index.js:1634
-#: build/edit-site/index.js:25855
+#: build/block-library/index.js:34727 build/block-library/index.js:34739
+#: build/block-library/index.js:35665 build/block-library/index.js:36651
+#: build/block-library/index.js:37111 build/core-data/index.js:1634
+#: build/edit-site/index.js:25904
 msgid "Menu"
 msgstr "Menú"
 
 #. translators: 'Home' as in a website's home page.
 #: build/block-library/blocks/home-link.php:140
-#: build/block-library/index.js:25017 build/block-library/index.js:37999
+#: build/block-library/index.js:25096 build/block-library/index.js:38093
 msgid "Home"
 msgstr "Inicio"
 
@@ -2738,18 +2750,18 @@ msgstr "Error de RSS:"
 
 #: build/block-library/blocks/search.php:27
 #: build/block-library/blocks/search.php:28
-#: build/block-library/blocks/search.php:52 build/block-editor/index.js:53146
-#: build/block-editor/index.js:53147 build/block-editor/index.js:55223
-#: build/block-editor/index.js:55869 build/block-editor/index.js:55870
-#: build/block-editor/index.js:56094 build/block-editor/index.js:56095
-#: build/block-library/index.js:49620 build/block-library/index.js:49621
-#: build/block-library/index.js:54253 build/block-library/index.js:54475
-#: build/block-library/index.js:54476 build/block-library/index.js:54597
-#: build/block-library/index.js:54598 build/block-library/index.js:63186
-#: build/block-library/index.js:63187 build/components/index.js:60008
-#: build/components/index.js:60009 build/edit-site/index.js:16586
-#: build/edit-site/index.js:16587 build/edit-site/index.js:19338
-#: build/edit-site/index.js:37310 build/edit-site/index.js:40135
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:53148
+#: build/block-editor/index.js:53149 build/block-editor/index.js:55225
+#: build/block-editor/index.js:55871 build/block-editor/index.js:55872
+#: build/block-editor/index.js:56096 build/block-editor/index.js:56097
+#: build/block-library/index.js:49721 build/block-library/index.js:49722
+#: build/block-library/index.js:54354 build/block-library/index.js:54576
+#: build/block-library/index.js:54577 build/block-library/index.js:54698
+#: build/block-library/index.js:54699 build/block-library/index.js:63298
+#: build/block-library/index.js:63299 build/components/index.js:59953
+#: build/components/index.js:59954 build/edit-site/index.js:16639
+#: build/edit-site/index.js:16640 build/edit-site/index.js:19391
+#: build/edit-site/index.js:37423 build/edit-site/index.js:40248
 msgid "Search"
 msgstr "Buscar"
 
@@ -2757,14 +2769,14 @@ msgstr "Buscar"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: lib/experimental/l10n.php:23 build/block-library/index.js:43959
-#: build/block-library/index.js:46205 build/editor/index.js:27556
-#: build/editor/index.js:27600 build/editor/index.js:32590
+#: lib/experimental/l10n.php:23 build/block-library/index.js:44060
+#: build/block-library/index.js:46306 build/editor/index.js:27548
+#: build/editor/index.js:27592 build/editor/index.js:32584
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: build/block-library/index.js:17304
+#: build/block-library/index.js:17382
 #: build/block-library/blocks/embed/block.json
 msgctxt "block title"
 msgid "Embed"
@@ -2790,7 +2802,7 @@ msgid "Limit result set to posts assigned one or more statuses."
 msgstr "Limitar el conjunto de resultados a las entradas asignadas a uno o más estados."
 
 #: lib/class-wp-theme-json-gutenberg.php:4234 build/block-editor/index.js:8028
-#: build/components/index.js:57328
+#: build/components/index.js:57295
 msgid "Medium"
 msgstr "Medio"
 
@@ -2819,7 +2831,7 @@ msgstr "Si quieres aprender más sobre cómo crear bloques adicionales o si est�
 msgid "The WordPress community"
 msgstr "La comunidad WordPress"
 
-#: post-content.php:159 build/block-library/index.js:24909
+#: post-content.php:159 build/block-library/index.js:24988
 msgid "Code is Poetry"
 msgstr "El código es poesía"
 
@@ -2961,7 +2973,7 @@ msgstr "El número de página solicitada es mayor que el número de páginas dis
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
 #: lib/class-wp-theme-json-gutenberg.php:4215
-#: build/block-library/index.js:58130 build/components/index.js:57328
+#: build/block-library/index.js:58238 build/components/index.js:57295
 msgid "Small"
 msgstr "Pequeño"
 
@@ -3009,7 +3021,7 @@ msgstr "Archivos"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
 #: lib/class-wp-theme-json-gutenberg.php:4252 build/block-editor/index.js:8031
-#: build/block-library/index.js:58136 build/components/index.js:57328
+#: build/block-library/index.js:58244 build/components/index.js:57295
 msgid "Large"
 msgstr "Grande"
 
@@ -3019,13 +3031,13 @@ msgid "Add a block that displays content pulled from other sites, like Twitter o
 msgstr "Añade un bloque que muestra el contenido extraído de otros sitios, como Twitter o YouTube."
 
 #: build/block-library/blocks/query-pagination.php:26
-#: build/edit-site/index.js:28129
+#: build/edit-site/index.js:28178
 msgid "Pagination"
 msgstr "Paginación"
 
 #: lib/experimental/navigation-theme-opt-in.php:93
 #: lib/experimental/navigation-theme-opt-in.php:98
-#: build/edit-widgets/index.js:3320 build/editor/index.js:33399
+#: build/edit-widgets/index.js:3320 build/editor/index.js:33393
 #: build/edit-widgets/index.min.js:3639
 msgid "Block"
 msgstr "Bloque"
@@ -3034,33 +3046,33 @@ msgstr "Bloque"
 #: build/block-library/blocks/latest-comments.php:31
 #: build/block-library/blocks/latest-posts.php:76
 #: build/block-library/blocks/page-list.php:196
-#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29286
-#: build/block-library/index.js:29318 build/block-library/index.js:40487
-#: build/block-library/index.js:40490 build/core-commands/index.js:389
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:29379
+#: build/block-library/index.js:29411 build/block-library/index.js:40581
+#: build/block-library/index.js:40584 build/core-commands/index.js:389
 #: build/core-commands/index.js:482 build/core-data/index.js:22554
 #: build/core-data/index.js:22576 build/core-data/index.js:22598
-#: build/core-data/index.js:22618 build/edit-site/index.js:37997
-#: build/editor/index.js:6568 build/editor/index.js:25326
+#: build/core-data/index.js:22618 build/edit-site/index.js:38110
+#: build/editor/index.js:6569 build/editor/index.js:25318
 #: build/core-commands/index.min.js:367 build/core-commands/index.min.js:477
 msgid "(no title)"
 msgstr "(sin título)"
 
 #: build/block-library/blocks/image.php:254
 #: build/block-library/blocks/navigation.php:490
-#: build/block-editor/index.js:75106 build/block-editor/index.js:76861
-#: build/block-library/index.js:34663 build/block-library/index.js:37019
+#: build/block-editor/index.js:75105 build/block-editor/index.js:76860
+#: build/block-library/index.js:34756 build/block-library/index.js:37113
 #: build/components/index.js:34482 build/components/index.js:47981
-#: build/components/index.js:62052 build/edit-site/index.js:14018
-#: build/edit-site/index.js:27437 build/edit-site/index.js:45685
-#: build/edit-widgets/index.js:4469 build/editor/index.js:6173
-#: build/editor/index.js:14179 build/editor/index.js:29450
-#: build/editor/index.js:30743 build/edit-widgets/index.min.js:4968
+#: build/components/index.js:61997 build/edit-site/index.js:14053
+#: build/edit-site/index.js:27486 build/edit-site/index.js:45841
+#: build/edit-widgets/index.js:4469 build/editor/index.js:6174
+#: build/editor/index.js:14180 build/editor/index.js:29442
+#: build/editor/index.js:30735 build/edit-widgets/index.min.js:4968
 msgid "Close"
 msgstr "Cerrar"
 
 #: build/block-library/blocks/read-more.php:39
-#: build/block-library/index.js:24120 build/block-library/index.js:33834
-#: build/block-library/index.js:53455 build/block-library/index.js:53547
+#: build/block-library/index.js:24199 build/block-library/index.js:33927
+#: build/block-library/index.js:53556 build/block-library/index.js:53648
 msgid "Read more"
 msgstr "Leer más"
 
@@ -3069,14 +3081,14 @@ msgid "Experiments"
 msgstr "Experimentos"
 
 #: build/block-library/blocks/comment-edit-link.php:47
-#: build/block-editor/index.js:72197 build/block-library/index.js:7006
-#: build/block-library/index.js:9423 build/block-library/index.js:10667
-#: build/block-library/index.js:40293 build/block-library/index.js:40592
-#: build/block-library/index.js:40600 build/block-library/index.js:40602
-#: build/block-library/index.js:63844 build/block-library/index.js:65259
-#: build/edit-post/index.js:3137 build/edit-site/index.js:29104
-#: build/edit-site/index.js:29667 build/edit-site/index.js:29996
-#: build/edit-site/index.js:41480 build/edit-post/index.min.js:3058
+#: build/block-editor/index.js:72196 build/block-library/index.js:7071
+#: build/block-library/index.js:9488 build/block-library/index.js:10732
+#: build/block-library/index.js:40387 build/block-library/index.js:40686
+#: build/block-library/index.js:40694 build/block-library/index.js:40696
+#: build/block-library/index.js:63956 build/block-library/index.js:65371
+#: build/edit-post/index.js:3137 build/edit-site/index.js:29153
+#: build/edit-site/index.js:29716 build/edit-site/index.js:30076
+#: build/edit-site/index.js:41593 build/edit-post/index.min.js:3058
 msgid "Edit"
 msgstr "Editar"
 

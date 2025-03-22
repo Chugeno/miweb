@@ -162,3 +162,82 @@
 [2025-03-18 03:08:16 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=236 has been purged, triggered by action: save_post 
 [2025-03-18 03:22:30 : INFO] - Cache for URL: http://eugenioazurmendi.local/hola/ has been purged, triggered by action: save_post 
 [2025-03-18 03:22:30 : INFO] - Cache for URL: http://eugenioazurmendi.local/hola/ has been purged, triggered by action: save_post 
+[2025-03-18 20:04:18 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=239 has been purged, triggered by action: save_post 
+[2025-03-18 20:04:43 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=239 has been purged, triggered by action: save_post 
+[2025-03-18 20:04:47 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=242 has been purged, triggered by action: save_post 
+[2025-03-18 20:05:31 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=242 has been purged, triggered by action: save_post 
+[2025-03-18 20:05:31 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=242 has been purged, triggered by action: save_post 
+[2025-03-18 20:05:35 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:05:35 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:06:00 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=239 has been purged, triggered by action: wp_trash_post 
+[2025-03-18 20:06:00 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=239 has been purged, triggered by action: save_post 
+[2025-03-18 20:06:13 : INFO] - Cache for URL: http://eugenioazurmendi.local/taller/combinador-de-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:07:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:07:19 : INFO] - Cache for URL: http://eugenioazurmendi.local/mi-web/ has been purged, triggered by action: save_post 
+[2025-03-18 20:07:19 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/berta/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
+[2025-03-18 20:07:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "mi Web" have been purged, triggered by action: save_post 
+[2025-03-18 20:07:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:07:19 : INFO] - Cache for URL: http://eugenioazurmendi.local/mi-web/ has been purged, triggered by action: save_post 
+[2025-03-18 20:07:19 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/berta/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
+[2025-03-18 20:07:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "mi Web" have been purged, triggered by action: save_post 
+[2025-03-18 20:07:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:07:59 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta/ has been purged, triggered by action: save_post 
+[2025-03-18 20:07:59 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 154 has been purged, triggered by action: save_post 
+[2025-03-18 20:07:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-18 20:07:59 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:07:59 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta/ has been purged, triggered by action: save_post 
+[2025-03-18 20:07:59 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 154 has been purged, triggered by action: save_post 
+[2025-03-18 20:07:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-18 20:08:24 : INFO] - Cache for URL: http://eugenioazurmendi.local/?p=244 has been purged, triggered by action: save_post 
+[2025-03-18 20:08:24 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 244 has been purged, triggered by action: save_post 
+[2025-03-18 20:08:24 : INFO] - Cache for all archives page associated with post_type: post and Title: "Borrador automático" have been purged, triggered by action: save_post 
+[2025-03-18 20:08:58 : INFO] - Cache for URL: http://eugenioazurmendi.local/taller/combinador-de-maps/ has been purged, triggered by action: wp_trash_post 
+[2025-03-18 20:08:58 : INFO] - Cache for URL: http://eugenioazurmendi.local/?page_id=242 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:00 : INFO] - Cache for URL: http://eugenioazurmendi.local/?p=245 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:00 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:00 : INFO] - Cache for all archives page associated with post_type: post and Title: "Borrador automático" have been purged, triggered by action: save_post 
+[2025-03-18 20:09:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:09:17 : INFO] - Cache for URL: http://eugenioazurmendi.local/?p=245 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:17 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:17 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-18 20:09:17 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:09:17 : INFO] - Cache for URL: http://eugenioazurmendi.local/?p=245 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:17 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:09:17 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-18 20:10:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:10:04 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-links-de-google-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:10:04 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:10:04 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-18 20:10:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:10:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:10:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:10:04 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-links-de-google-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:10:04 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:10:04 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-18 20:10:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:10:27 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-links-de-google-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:10:27 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:10:27 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-18 20:10:27 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-18 20:10:27 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-links-de-google-maps/ has been purged, triggered by action: save_post 
+[2025-03-18 20:10:27 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-18 20:10:27 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-22 18:23:30 : INFO] - Cache for URL: http://eugenioazurmendi.local/hola/ has been purged, triggered by action: save_post 
+[2025-03-22 18:23:30 : INFO] - Cache for URL: http://eugenioazurmendi.local/hola/ has been purged, triggered by action: save_post 
+[2025-03-22 18:24:12 : INFO] - Cache for URL: http://eugenioazurmendi.local/combinador-de-links-de-google-maps/ has been purged, triggered by action: wp_trash_post 
+[2025-03-22 18:24:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-22 18:24:12 : INFO] - Cache for URL: http://eugenioazurmendi.local/?p=245 has been purged, triggered by action: save_post 
+[2025-03-22 18:24:12 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 245 has been purged, triggered by action: save_post 
+[2025-03-22 18:24:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Combinador de links de Google Maps" have been purged, triggered by action: save_post 
+[2025-03-22 18:24:32 : INFO] - Cache for URL: http://eugenioazurmendi.local/taller/ has been purged, triggered by action: save_post 
+[2025-03-22 18:24:32 : INFO] - Cache for URL: http://eugenioazurmendi.local/taller/ has been purged, triggered by action: save_post 
+[2025-03-22 18:24:57 : INFO] - Cache for URL: http://eugenioazurmendi.local/bitacora/ has been purged, triggered by action: save_post 
+[2025-03-22 18:24:57 : INFO] - Cache for URL: http://eugenioazurmendi.local/bitacora/ has been purged, triggered by action: save_post 
+[2025-03-22 19:08:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-22 19:08:10 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta/ has been purged, triggered by action: save_post 
+[2025-03-22 19:08:10 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 154 has been purged, triggered by action: save_post 
+[2025-03-22 19:08:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-22 19:08:10 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-22 19:08:10 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta/ has been purged, triggered by action: save_post 
+[2025-03-22 19:08:10 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 154 has been purged, triggered by action: save_post 
+[2025-03-22 19:08:10 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 

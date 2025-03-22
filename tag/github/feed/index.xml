@@ -12,7 +12,7 @@
 	<atom:link href="https://eugenioazurmendi.com.ar/tag/github/feed/" rel="self" type="application/rss+xml" />
 	<link>https://eugenioazurmendi.com.ar/</link>
 	<description>...compartiendo...</description>
-	<lastBuildDate>Mon, 17 Mar 2025 20:32:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 18 Mar 2025 20:07:19 +0000</lastBuildDate>
 	<language>es-AR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>mi Web</title>
 		<link>https://eugenioazurmendi.com.ar/mi-web/</link>
-					<comments>https://eugenioazurmendi.com.ar/mi-web/#respond</comments>
 		
 		<dc:creator><![CDATA[eugenio]]></dc:creator>
 		<pubDate>Mon, 17 Mar 2025 20:04:34 +0000</pubDate>
@@ -161,8 +160,6 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://eugenioazurmendi.com.ar/mi-web/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

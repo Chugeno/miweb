@@ -12,7 +12,7 @@
 	<atom:link href="https://eugenioazurmendi.com.ar/author/eugenio/feed/" rel="self" type="application/rss+xml" />
 	<link>https://eugenioazurmendi.com.ar/</link>
 	<description>...compartiendo...</description>
-	<lastBuildDate>Tue, 18 Mar 2025 02:36:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 22 Mar 2025 19:08:10 +0000</lastBuildDate>
 	<language>es-AR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>mi Web</title>
 		<link>https://eugenioazurmendi.com.ar/mi-web/</link>
-					<comments>https://eugenioazurmendi.com.ar/mi-web/#respond</comments>
 		
 		<dc:creator><![CDATA[eugenio]]></dc:creator>
 		<pubDate>Mon, 17 Mar 2025 20:04:34 +0000</pubDate>
@@ -161,15 +160,12 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://eugenioazurmendi.com.ar/mi-web/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Berta</title>
 		<link>https://eugenioazurmendi.com.ar/berta/</link>
-					<comments>https://eugenioazurmendi.com.ar/berta/#respond</comments>
 		
 		<dc:creator><![CDATA[eugenio]]></dc:creator>
 		<pubDate>Mon, 17 Mar 2025 02:35:12 +0000</pubDate>
@@ -189,10 +185,16 @@
 
 
 <p>Es un camión hermoso&#8230;</p>
+
+
+
+<p>Aqui la ruta hasta ahora, unos 23000 km</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="791" height="1024" src="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png" alt="" class="wp-image-249" srcset="https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-791x1024.png 791w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-232x300.png 232w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-768x994.png 768w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1187x1536.png 1187w, https://eugenioazurmendi.com.ar/wp-content/uploads/2025/03/Berta-1742670417730-1583x2048.png 1583w" sizes="(max-width: 791px) 100vw, 791px" /></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://eugenioazurmendi.com.ar/berta/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
