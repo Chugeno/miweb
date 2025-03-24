@@ -12,7 +12,7 @@
 	<atom:link href="https://eugenioazurmendi.com.ar/tag/viajeporsudamerica/feed/" rel="self" type="application/rss+xml" />
 	<link>https://eugenioazurmendi.com.ar/</link>
 	<description>...compartiendo...</description>
-	<lastBuildDate>Sat, 22 Mar 2025 20:42:38 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 24 Mar 2025 18:21:12 +0000</lastBuildDate>
 	<language>es-AR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -60,7 +60,7 @@
 		
 		<dc:creator><![CDATA[eugenio]]></dc:creator>
 		<pubDate>Mon, 17 Mar 2025 02:35:12 +0000</pubDate>
-				<category><![CDATA[Bitácora]]></category>
+				<category><![CDATA[Bitacora]]></category>
 		<category><![CDATA[MercedesBenz608D]]></category>
 		<category><![CDATA[ViajePorSudamerica]]></category>
 		<guid isPermaLink="false">https://eugenioazurmendi.com.ar/?p=154</guid>

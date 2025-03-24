@@ -402,3 +402,41 @@
 [2025-03-22 20:43:48 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/berta/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
 [2025-03-22 20:43:48 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/my-web/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
 [2025-03-22 20:43:48 : INFO] - Cache for all archives page associated with post_type: post and Title: "mi Web" have been purged, triggered by action: save_post 
+[2025-03-24 18:19:56 : INFO] - Cache for term page with URL: http://eugenioazurmendi.local/category/bitacora/  have been purged, triggered by action: edit_terms 
+[2025-03-24 18:19:56 : INFO] - Cache for associated posts for term with URL: http://eugenioazurmendi.local/category/bitacora/ have been purged, triggered by action: edit_terms 
+[2025-03-24 18:20:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:20:50 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta-2/ has been purged, triggered by action: save_post 
+[2025-03-24 18:20:50 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/my-web/) adjacent to post with id: 274 has been purged, triggered by action: save_post 
+[2025-03-24 18:20:50 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-24 18:20:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:20:50 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta-2/ has been purged, triggered by action: save_post 
+[2025-03-24 18:20:50 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/my-web/) adjacent to post with id: 274 has been purged, triggered by action: save_post 
+[2025-03-24 18:20:50 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-24 18:21:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:21:12 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta/ has been purged, triggered by action: save_post 
+[2025-03-24 18:21:12 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 154 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-24 18:21:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:21:12 : INFO] - Cache for URL: http://eugenioazurmendi.local/berta/ has been purged, triggered by action: save_post 
+[2025-03-24 18:21:12 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 154 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:12 : INFO] - Cache for all archives page associated with post_type: post and Title: "Berta" have been purged, triggered by action: save_post 
+[2025-03-24 18:21:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:21:23 : INFO] - Cache for URL: http://eugenioazurmendi.local/my-web/ has been purged, triggered by action: save_post 
+[2025-03-24 18:21:23 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 271 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:23 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/berta-2/) adjacent to post with id: 271 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "My Web" have been purged, triggered by action: save_post 
+[2025-03-24 18:21:24 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:21:24 : INFO] - Cache for URL: http://eugenioazurmendi.local/my-web/ has been purged, triggered by action: save_post 
+[2025-03-24 18:21:24 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/mi-web/) adjacent to post with id: 271 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:24 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/berta-2/) adjacent to post with id: 271 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:24 : INFO] - Cache for all archives page associated with post_type: post and Title: "My Web" have been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:21:40 : INFO] - Cache for URL: http://eugenioazurmendi.local/mi-web/ has been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/berta/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/my-web/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for all archives page associated with post_type: post and Title: "mi Web" have been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-03-24 18:21:40 : INFO] - Cache for URL: http://eugenioazurmendi.local/mi-web/ has been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for previous post (with URL: http://eugenioazurmendi.local/berta/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for next post (with URL: http://eugenioazurmendi.local/my-web/) adjacent to post with id: 194 has been purged, triggered by action: save_post 
+[2025-03-24 18:21:40 : INFO] - Cache for all archives page associated with post_type: post and Title: "mi Web" have been purged, triggered by action: save_post 
